@@ -1,0 +1,8 @@
+{
+  "lgbm_fold_1_auc":0.9660451428,
+  "lgbm_fold_2_auc":0.9805977678,
+  "lgbm_fold_3_auc":0.9844515347,
+  "lgbm_fold_4_auc":0.9841900419,
+  "lgbm_overall_auc":0.9788260069,
+  "lgbm_best_params":"{\"learning_rate\": 0.04, \"num_leaves\": 80, \"min_child_samples\": 45, \"subsample\": 0.85, \"colsample_bytree\": 0.8, \"reg_alpha\": 0.05, \"reg_lambda\": 0.4}"
+}

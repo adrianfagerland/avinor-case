@@ -1,0 +1,7 @@
+{
+  "xgb_fold_1_auc":0.9660936894,
+  "xgb_fold_2_auc":0.9812875306,
+  "xgb_fold_3_auc":0.9845410628,
+  "xgb_fold_4_auc":0.9838743355,
+  "xgb_overall_auc":0.9787954875
+}

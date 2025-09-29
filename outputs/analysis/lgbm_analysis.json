@@ -1,0 +1,278 @@
+{
+  "model": "lgbm",
+  "n_features": 368,
+  "top_features": [
+    {
+      "feature": "feat_sched_concurrence",
+      "split_importance": 161.0,
+      "gain_importance": 3913892.4507980347,
+      "split_importance_pct": 0.00339662447257384,
+      "gain_importance_pct": 0.5941187356608165
+    },
+    {
+      "feature": "sim_prob_any_overlap_mean",
+      "split_importance": 572.0,
+      "gain_importance": 472386.8714251518,
+      "split_importance_pct": 0.012067510548523206,
+      "gain_importance_pct": 0.07170710343271061
+    },
+    {
+      "feature": "sim_overlap_minutes_ge3_mean",
+      "split_importance": 415.0,
+      "gain_importance": 316090.4461913109,
+      "split_importance_pct": 0.008755274261603375,
+      "gain_importance_pct": 0.04798171094541801
+    },
+    {
+      "feature": "overlap_min_gap_minutes",
+      "split_importance": 325.0,
+      "gain_importance": 241438.6719172001,
+      "split_importance_pct": 0.006856540084388186,
+      "gain_importance_pct": 0.03664976498519417
+    },
+    {
+      "feature": "sim_overlap_mean_mean",
+      "split_importance": 475.0,
+      "gain_importance": 166619.26811134815,
+      "split_importance_pct": 0.010021097046413503,
+      "gain_importance_pct": 0.025292373296271996
+    },
+    {
+      "feature": "hist_rate_group_hour",
+      "split_importance": 946.0,
+      "gain_importance": 140941.37958288193,
+      "split_importance_pct": 0.019957805907172995,
+      "gain_importance_pct": 0.021394536332494128
+    },
+    {
+      "feature": "overlap_minutes_ge2",
+      "split_importance": 242.0,
+      "gain_importance": 77956.34547662735,
+      "split_importance_pct": 0.005105485232067511,
+      "gain_importance_pct": 0.011833571308753784
+    },
+    {
+      "feature": "sim_prob_any_overlap",
+      "split_importance": 102.0,
+      "gain_importance": 73246.44559001923,
+      "split_importance_pct": 0.0021518987341772153,
+      "gain_importance_pct": 0.011118620706278726
+    },
+    {
+      "feature": "sim_concurrency_area_mean",
+      "split_importance": 307.0,
+      "gain_importance": 57075.92917227745,
+      "split_importance_pct": 0.006476793248945147,
+      "gain_importance_pct": 0.008663978201441288
+    },
+    {
+      "feature": "overlap_pairs_per_hour",
+      "split_importance": 228.0,
+      "gain_importance": 51557.16252720356,
+      "split_importance_pct": 0.004810126582278481,
+      "gain_importance_pct": 0.007826243720283064
+    },
+    {
+      "feature": "sim_prob_any_overlap_std",
+      "split_importance": 514.0,
+      "gain_importance": 50060.21485996246,
+      "split_importance_pct": 0.010843881856540085,
+      "gain_importance_pct": 0.007599010942021528
+    },
+    {
+      "feature": "sim_concurrency_mean_mean",
+      "split_importance": 110.0,
+      "gain_importance": 39782.69517612457,
+      "split_importance_pct": 0.002320675105485232,
+      "gain_importance_pct": 0.006038910076437982
+    },
+    {
+      "feature": "sim_concurrency_std_mean",
+      "split_importance": 606.0,
+      "gain_importance": 39610.97904253006,
+      "split_importance_pct": 0.012784810126582278,
+      "gain_importance_pct": 0.006012844012164055
+    },
+    {
+      "feature": "target_rolling_mean_336h",
+      "split_importance": 1167.0,
+      "gain_importance": 37117.65979671478,
+      "split_importance_pct": 0.024620253164556963,
+      "gain_importance_pct": 0.005634364609230918
+    },
+    {
+      "feature": "sim_overlap_max_mean",
+      "split_importance": 760.0,
+      "gain_importance": 35229.682816028595,
+      "split_importance_pct": 0.016033755274261603,
+      "gain_importance_pct": 0.005347774594093099
+    },
+    {
+      "feature": "sim_arr_activity_mean",
+      "split_importance": 956.0,
+      "gain_importance": 35053.68521094322,
+      "split_importance_pct": 0.02016877637130802,
+      "gain_importance_pct": 0.005321058613537391
+    },
+    {
+      "feature": "hist_rate_month_hour",
+      "split_importance": 1143.0,
+      "gain_importance": 31340.607982635498,
+      "split_importance_pct": 0.024113924050632913,
+      "gain_importance_pct": 0.004757423108467916
+    },
+    {
+      "feature": "feat_sched_flights_cnt",
+      "split_importance": 357.0,
+      "gain_importance": 28981.006870746613,
+      "split_importance_pct": 0.007531645569620253,
+      "gain_importance_pct": 0.004399241771887387
+    },
+    {
+      "feature": "sim_dep_activity_mean",
+      "split_importance": 1003.0,
+      "gain_importance": 26068.41462612152,
+      "split_importance_pct": 0.021160337552742617,
+      "gain_importance_pct": 0.00395711781380077
+    },
+    {
+      "feature": "sim_arr_activity_std",
+      "split_importance": 1142.0,
+      "gain_importance": 25536.678110837936,
+      "split_importance_pct": 0.02409282700421941,
+      "gain_importance_pct": 0.0038764015881669876
+    },
+    {
+      "feature": "relative_humidity_mean",
+      "split_importance": 1808.0,
+      "gain_importance": 24561.881737709045,
+      "split_importance_pct": 0.03814345991561181,
+      "gain_importance_pct": 0.0037284300237945428
+    },
+    {
+      "feature": "overlap_mean",
+      "split_importance": 452.0,
+      "gain_importance": 21892.164597272873,
+      "split_importance_pct": 0.009535864978902953,
+      "gain_importance_pct": 0.0033231738773910973
+    },
+    {
+      "feature": "scheduled_arr_next_90m",
+      "split_importance": 342.0,
+      "gain_importance": 21188.0523583889,
+      "split_importance_pct": 0.007215189873417721,
+      "gain_importance_pct": 0.003216291463429069
+    },
+    {
+      "feature": "sim_concurrency_std_std",
+      "split_importance": 1128.0,
+      "gain_importance": 20757.60812151432,
+      "split_importance_pct": 0.02379746835443038,
+      "gain_importance_pct": 0.003150951143274828
+    },
+    {
+      "feature": "target_prev_hour",
+      "split_importance": 497.0,
+      "gain_importance": 19747.48784637451,
+      "split_importance_pct": 0.010485232067510548,
+      "gain_importance_pct": 0.0029976175020785673
+    },
+    {
+      "feature": "sim_overlap_mean_std",
+      "split_importance": 1047.0,
+      "gain_importance": 19535.684444904327,
+      "split_importance_pct": 0.022088607594936707,
+      "gain_importance_pct": 0.0029654662943813634
+    },
+    {
+      "feature": "wind_speed_mean",
+      "split_importance": 1606.0,
+      "gain_importance": 17796.049024939537,
+      "split_importance_pct": 0.03388185654008439,
+      "gain_importance_pct": 0.00270139414390377
+    },
+    {
+      "feature": "target_rolling_std_336h",
+      "split_importance": 267.0,
+      "gain_importance": 17635.963171958923,
+      "split_importance_pct": 0.005632911392405063,
+      "gain_importance_pct": 0.0026770935261004798
+    },
+    {
+      "feature": "overlap_max",
+      "split_importance": 95.0,
+      "gain_importance": 17503.44443845749,
+      "split_importance_pct": 0.0020042194092827004,
+      "gain_importance_pct": 0.002656977525625507
+    },
+    {
+      "feature": "sim_dep_activity_std",
+      "split_importance": 1161.0,
+      "gain_importance": 17450.87396979332,
+      "split_importance_pct": 0.02449367088607595,
+      "gain_importance_pct": 0.002648997464658455
+    }
+  ],
+  "group_importance": [
+    {
+      "family": "schedule_counts",
+      "split_importance_pct": 0.06757383966244726,
+      "gain_importance_pct": 0.6142395702305977
+    },
+    {
+      "family": "simulation",
+      "split_importance_pct": 0.37582278481012665,
+      "gain_importance_pct": 0.231737112121805
+    },
+    {
+      "family": "overlap",
+      "split_importance_pct": 0.031919831223628695,
+      "gain_importance_pct": 0.06447535515955105
+    },
+    {
+      "family": "history_encoding",
+      "split_importance_pct": 0.06845991561181435,
+      "gain_importance_pct": 0.02949667677205677
+    },
+    {
+      "family": "recent_target",
+      "split_importance_pct": 0.11253164556962025,
+      "gain_importance_pct": 0.01867104264095377
+    },
+    {
+      "family": "weather",
+      "split_importance_pct": 0.18856540084388185,
+      "gain_importance_pct": 0.016074544127531856
+    },
+    {
+      "family": "time_cyclical",
+      "split_importance_pct": 0.04740506329113924,
+      "gain_importance_pct": 0.007607661111476951
+    },
+    {
+      "family": "airport_group_onehot",
+      "split_importance_pct": 0.015042194092827005,
+      "gain_importance_pct": 0.0060081008717412
+    },
+    {
+      "family": "airport_hour_bucket_onehot",
+      "split_importance_pct": 0.03270042194092831,
+      "gain_importance_pct": 0.005636801347374742
+    },
+    {
+      "family": "calendar",
+      "split_importance_pct": 0.042215189873417734,
+      "gain_importance_pct": 0.003720732987222774
+    },
+    {
+      "family": "airport_dow_bucket_onehot",
+      "split_importance_pct": 0.013565400843881853,
+      "gain_importance_pct": 0.0012955627944955174
+    },
+    {
+      "family": "other",
+      "split_importance_pct": 0.00419831223628692,
+      "gain_importance_pct": 0.0010368398351927207
+    }
+  ]
+}

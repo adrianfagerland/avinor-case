@@ -1,0 +1,35 @@
+{
+  "kind": "inference",
+  "n_simulations": 120,
+  "random_state": 123,
+  "schedule_rows": 4565,
+  "minute_features": true,
+  "delay_sampler": {
+    "clip_low": -60.0,
+    "clip_high": 180.0,
+    "block_bucket_edges": [
+      60.0,
+      120.0,
+      180.0,
+      240.0,
+      360.0
+    ],
+    "congestion_bucket_edges": [
+      5,
+      10,
+      20,
+      40
+    ],
+    "version": 3
+  },
+  "cancellation_model": {
+    "alpha": 1.0,
+    "congestion_bucket_edges": [
+      5,
+      10,
+      20,
+      40
+    ],
+    "version": 2
+  }
+}

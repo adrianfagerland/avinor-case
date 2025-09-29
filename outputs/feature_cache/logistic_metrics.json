@@ -1,0 +1,7 @@
+{
+  "logistic_fold_1_auc":0.9577122971,
+  "logistic_fold_2_auc":0.9692198834,
+  "logistic_fold_3_auc":0.9770786969,
+  "logistic_fold_4_auc":0.9778324835,
+  "logistic_overall_auc":0.9706559082
+}

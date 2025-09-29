@@ -1,0 +1,11 @@
+numpy>=1.26
+pandas>=2.2
+pyarrow>=14.0
+requests>=2.32
+holidays>=0.46
+scikit-learn>=1.7.2
+tqdm>=4.66
+lightgbm>=4.3
+catboost>=1.2
+xgboost>=2.1
+torch>=2.2

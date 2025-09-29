@@ -1,0 +1,8 @@
+{
+  "catboost_fold_1_auc":0.9661025932,
+  "catboost_fold_2_auc":0.9795679274,
+  "catboost_fold_3_auc":0.9848579033,
+  "catboost_fold_4_auc":0.9837766168,
+  "catboost_overall_auc":0.978594049,
+  "catboost_best_params":"{\"learning_rate\": 0.04, \"depth\": 7, \"l2_leaf_reg\": 6.0, \"bagging_temperature\": 0.3}"
+}

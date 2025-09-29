@@ -1,0 +1,7 @@
+{
+  "sequence_fold_1_auc":0.9612551398,
+  "sequence_fold_2_auc":0.9768360983,
+  "sequence_fold_3_auc":0.9811455572,
+  "sequence_fold_4_auc":0.9808995544,
+  "sequence_overall_auc":0.9725442104
+}

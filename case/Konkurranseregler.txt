@@ -1,0 +1,279 @@
+Konkurranseregler
+Deltakelse i Avinors Datakonkurranse
+«Når går det på høygir?»
+Saksnummer 25/04974
+
+Innholdsfortegnelse
+Hva er en datakonkurranse?........................................................................................................... 3
+Behov og problembeskrivelse i denne datakonkurransen................................................................ 3
+Målsetting med konkurransen – utvikle en «samtidighetsmodell».................................................... 3
+Forklaring av sentrale begreper ...................................................................................................... 4
+Avvik i flytrafikken - Sentral domenekunnskap ................................................................................ 4
+Tidslinje .......................................................................................................................................... 5
+Oppgavebeskrivelse ....................................................................................................................... 5
+Bruk og eierskap til resultatet .......................................................................................................... 6
+Kvalifikasjonskrav ........................................................................................................................... 6
+Språk/kommunikasjon .................................................................................................................... 6
+Evalueringskriterier ......................................................................................................................... 6
+Innlevering av bidrag til konkurransen ............................................................................................. 7
+Samtykke til behandling av personopplysninger .............................................................................. 7
+Spørsmål til konkurransen .............................................................................................................. 8
+
+Hva er en datakonkurranse?
+En datakonkurranse handler i praksis om at virksomheter lyser ut en konkurranse der
+deltakere får tilgang til et datasett for å analysere det og finne verdifulle innsikter eller
+løsninger på et spesifikt problem. Målet med en datakonkurranse kan være å identifisere
+mønstre, utvikle prediksjonsmodeller eller foreslå nye anvendelser av dataene, ofte med
+premiering for de beste bidragene.
+
+Behov og problembeskrivelse i denne datakonkurransen
+Avinor er en av verdens ledende aktører innen fjernstyrte tårn (remote towers), der
+lufttrafikktjenester leveres for én eller flere flyplasser fra ett senter ved hjelp av kameraer og
+sensorer i stedet for et tradisjonelt tårn på stedet. Remote Towers betyr at flygeinformasjon1
+blir gitt fra et annet sted enn selve flyplassen.
+AFIS-fullmektig (Aerodrome Flight Information Service) har ansvar for å overvåke luftrommet
+rundt en flyplass, gi trafikkinformasjon til piloter og bidra til sikkerhet – uten å gi direkte
+instruksjoner slik som flygeledere gjør. På flyplasser med lite trafikk er det mulig å ha en
+AFIS-fullmektig med ansvar for tre flyplasser parallelt. Da har AFIS-fullmektig ansvar for en
+flyplassgruppe. Det skal nå etableres seks slike grupper som hver kontrollerer tre flyplasser
+samtidig. Dette kalles multippel-drift.
+Formålet med denne datakonkurransen er å analysere når AFIS-fullmektig opplever størst
+arbeidsbelastning. Belastningen påvirkes særlig av to forhold:
+•
+•
+
+Antall fly det kommuniseres med samtidig
+Krevende operative forhold, værforhold som fører til hyppigere og mer detaljert dialog
+med pilotene.
+
+Målsetting med konkurransen – utvikle en «samtidighetsmodell»
+Formålet med denne datakonkurransen er å analysere når AFIS-fullmektig opplever høy
+arbeidsbelastning. AFIS-fullmektig vil oppleve høy arbeidsbelastning når flere fly krever
+informasjon på samme tid. Arbeidsbelastningen øker også når det er krevende værforhold.
+Vi ønsker at deltagerne utvikler en modell som predikerer sannsynlighet for samtidighet (dvs.
+at AFIS-fullmektig må kommunisere med flere fly samtidig). Dersom fly fulgte ruteplanen
+hadde det vært enkelt å vite dette, men fly påvirkes av vær og andre operasjonelle forhold
+som gjør at det oppstår forsinkelser2. I tillegg er det en del uregelmessig trafikk som følge av
+ambulansefly eller annen trafikk på flyplassen.
+Det er også viktig for AVINOR å ha en forklarbar modell av regulatoriske hensyn (AVINOR
+må kunne dokumentere for luftfartstilsynet at vi har rett bemanning under gitte forhold).
+
+1
+
+Med flygeinformasjon menes for eksempel værdata, baneinformasjon, trafikkinstruksjoner og annen
+data som skaper situasjonsforståelse. Du finner mer informasjon om stillingen som AFIS-fullmektig her
+https://avinor.no/afis-fullmektig/om-jobben/jobbmuligheter
+2
+Til informasjon vil det kunne være samme luftfartøy som flyr mellom flere flyplasser. F.eks. fly A går i
+rute fra Bodø til Stokmarknes og så til Tromsø. Det betyr at et forsinket fly fra Bodø til Stokmarknes i
+stor grad vil føre til en videre forsinkelse fra Stokmarknes til Tromsø
+
+Forklaring av sentrale begreper
+Samtidighet skjer når flere fly (avganger eller ankomster) finner sted samtidig eller svært
+nært i tid på de flyplassene én AFIS-fullmektig overvåker. Når en AFIS-fullmektig er i aktiv
+dialog med to eller flere fly samtidig, oppstår samtidighet. Før landinger kommuniserer AFISfullmektig med flyene fra 16 minutter før til 5 minutter etter landing, og for avganger fra 15
+minutter før til 8 minutter etter avgang.
+Lufttrafikktjenesten (LTT): Lufttrafikktjenesten i Avinor refererer til tjenestene som sikrer
+sikker og effektiv flytrafikk i norsk luftrom. Dette inkluderer flygeledere, AFIS (Aerodrome
+Flight Information Service) og LTT-fullmektiger som jobber med flysikring.
+AFIS-fullmektig: En AFIS-fullmektig (Aerodrome Flight Information Service Officer) er en
+person som gir flygeinformasjonstjeneste til luftfartøy på og rundt mindre flyplasser. De gir
+piloter informasjon om vær, trafikk og forhold på flyplassen og sørger for trygg og effektiv
+flyging. I motsetning til større flyplasser, har AFIS-fullmektig ikke ansvaret for at det er trygge
+forhold for å lande, de gir kun piloten informasjon om forholdene på flyplassen.
+Multippel drift betyr i denne sammenhengen at én AFIS-fullmektig betjener flere lufthavner
+samtidig (opptil tre lufthavner) fra én arbeidsstasjon i Remote Towers Centre (RTC). Dette er
+muliggjort ved hjelp av avansert teknologi som kameraer, mikrofoner og annen
+sensorteknologi, som gir AFIS-fullmektige full oversikt over situasjonen ved hver av de
+tilknyttede flyplassene.
+Målet med multippel drift er å:
+•
+•
+
+Redusere kostnader og øke effektiviteten i lufttrafikktjenesten.
+Øke kapasiteten til Avinor Flysikring ved bruk av ny teknologi.
+
+Sikre høy flysikkerhet ved å optimalisere arbeidsbelastningen til AFIS-fullmektig, selv ved
+noe samtidighet av trafikk mellom flyplassene.
+
+Avvik i flytrafikken - Sentral domenekunnskap
+•
+
+Utfordringer skapes av
+o Varierende værforhold.
+o Flyforsinkelser og uregelmessige flyvninger (f.eks. ambulansefly).
+o Operative forstyrrelser.
+
+•
+
+Samtidighetshåndtering
+o Unngå overbelastning av AFIS-fullmektiger ved samtidig trafikk.
+o Ulike typer flyvninger (ruteflygning vs. ad hoc-flygning) og forsinkelser øker
+risiko.
+
+•
+
+Kjedeeffekter
+– Én flygning kan påvirke neste etappe (f.eks. Bodø → Stokmarknes → Tromsø).
+
+Tidslinje
+§ 1. september 2025 kl 12.00: Konkurransen publiseres
+§ 14. september kl 12.00: Frist for å sende inn skriftlige spørsmål til Avinor i
+konkurransen (obs, det vil ikke være mulig å stille spørsmål til Avinor etter denne
+datoen).
+§ 16. september 2025 kl 08.30-09.15: Spørsmålsrunde med Avinor på teams.
+§ 26. september kl 09:00: Oppdatert ruteplan for oktober publiseres på konkurransesiden
+§ 30. september 2025 kl 12.00: Frist for innlevering av bidrag til konkurransen
+§ 4. november 2025: Vinnere av konkurransen kunngjøres
+§ 10. November 2025: Studentene bak vinnende bidrag inviteres til å presentere sitt
+bidrag for virksomhetene i Samferdselsdata (Avinor, Bane NOR, Entur,
+Jernbanedirektoratet, Kystverket, Nye Veier, Statens vegvesen).
+
+Oppgavebeskrivelse
+I denne konkurransen ønsker vi at deltakerne utvikler en modell:
+1) Samtidighetsmodell – Sannsynlighet for samtidig aktiv dialog
+Mål: Predikere sannsynlighet for at minst en samtidighetssituasjon oppstår i løpet av
+intervaller på en time.
+Beskrivelse: Deltakerne skal utvikle en modell som predikerer sannsynlighet for samtidighet
+i flyoperasjoner i en flyplassgruppe i timesintervaller. Med samtidighet menes det at en AFISfullmektig aktivt kommunisere med flere piloter (fly) på samme tid. Vi legger til grunn at AFISfullmektig kommunisere aktivt med et fly i perioden 16 minutter før landing til 5 minutter etter
+landing. For fly som skal ta av, kommuniseres det aktivt 15 minutter før avgang til 8 minutter
+etter avgang. Eksemplene under er laget for å tydeliggjøre hva vi mener med samtidighet.
+
+Figuren ovenfor viser tre eksempler for når det er/ikke er samtidighet. I eksemplet 1 skjer
+flyoperasjoner for fly1, fly 2 og fly 3 uten overlapp. Derfor er det ikke aktiv dialog mellom
+AFIS-fullmektig og flyene på samme tid. På eksemplet 2 er det overlapp i flyoperasjoner for
+fly 1 og fly 2. Det vil si at det forventes aktiv dialog mellom AFIS-fullmektig og fly 1 og fly 2 på
+
+samme tid. På eksemplet 3 er det overlapp i flyoperasjoner for fly 1 og fly 2, samt fly 2 og fly
+3. Det vil si at det forventes aktiv dialog mellom AFIS-fullmektig og fly 1 og fly 2, og fly 2 og
+fly 3 på samme tid.
+Det er viktig for Avinor å forstå hvilke parametere som i størst grad påvirker sannsynligheten
+for samtidighet. Deltakerne bes derfor om å forklare hvilke faktorer (features) som i størst
+grad påvirker modellens vurdering av samtidighetsrisiko.
+
+Datagrunnlag
+En detaljert beskrivelse av datasett er tilgjengelig i vedlegg 1 – «Detaljert beskrivelse av
+datasett».
+
+Bruk og eierskap til resultatet
+Deltakeren har eierskap til den modell som innleveres, men ved å levere inn et bidrag og
+delta i konkurransen samtykker deltakerne til at Avinor og aktørene i datasamarbeidet får en
+vederlagsfri og eksklusiv bruksrett til resultatene og kan benytte dette til internt brukt.
+
+Kvalifikasjonskrav
+Samtlige personer som deltar i konkurransen, må være studenter ved norsk universitet eller
+høyskole under tiden som konkurransen er aktiv (gjennomføringsfasen av konkurransen).
+Dette må dokumenteres ved innlevering av konkurransebidrag, for eksempel i form av gyldig
+studentbevis eller annen bekreftelse som viser at deltakeren er student på
+innleveringstidspunktet.
+
+Språk/kommunikasjon
+All kommunikasjon i konkurransen vil foregår på norsk, men dokumenter som leveres inn
+som bidrag til konkurransen kan være på engelsk. Det er altså et krav om at de personer
+som leverer inn bidrag til konkurransen kan kommunisere muntlig på norsk.
+
+Evalueringskriterier
+Evalueringskriterier vurderes i poeng fra 1-10 (best), med en vekting mellom kriteria under:
+1. Presisjon i samtidighetsmodell (60%): Vi skal måle modellen ved å sammenligne
+med virkelige data 1 måned etter konkurransen. Vi bruker AUC-ROC (Area Under the
+Receiver Operating Characteristic Curve) score til å måle hvor gode prediksjonene er.
+2. Innovasjon og kreativitet (30%): Løsningen bør vise nytenkning og kreativ bruk av
+kunstig intelligens og data. Det er positivt hvis det brukes andre offentlig tilgjengelige
+datakilder eller gjøres kreativ feature engineering. Vi ber deltakerne om en kort
+oppsummering av modellens egenskaper og styrker, samt en beskrivelse av hvordan
+kunstig intelligens og data er benyttet på en innovativ måte. I tillegg ønsker vi en kort
+vurdering av hvordan modellen kan videreutvikles for å øke treffsikkerhet og skape
+økt verdi for Avinor.
+
+3. Dokumentasjon og kildekode (10%): Dokumentasjon for løsningen (Word, PDF,
+TXT), kildekoden og resultatene for modelleringen i et tabellarisk format (csv-format,
+UTF-8) slik at resultatene kan vurderes i evalueringen. Dokumentasjonen vil være
+viktig for Avinor dersom de skal videreutvikle modellen.3
+
+Innlevering av bidrag til konkurransen
+Innlevering av bidrag skal skje senest 30. september 2025 kl 12:00 via denne lenken:
+https://docs.google.com/forms/d/1BVSpCMOhWl9IKX8wcBXNjrf4wV1XWWdr7stt_Zc6R8/edit
+Denne konkurransen retter ser eksklusivt mot studenter. Det er derfor også krav om at man
+legger ved dokumentasjon som styrker at man er student ved tidspunktet da man leverer inn
+bidraget til konkurransen.
+Dersom man har problemer med innlevering av bidrag, vennligst ta kontakt med
+Malin.emelie.karlsson@entur.org
+
+Samtykke til behandling av personopplysninger
+Ved å sende inn ditt bidrag til konkurransen gir du samtykke til at vi behandler dine
+personopplysninger som beskrevet nedenfor.
+Hvilke opplysninger behandles?
+• Navn
+• E-postadresse
+• Opplysninger som fremgår av ditt studiebevis, typisk:
+§ Utdanningsinstitusjon
+§ Studieprogram/studienivå
+§ Student-ID
+§ Start- og eventuell sluttdato for studiet
+§ Dato for utstedelse av studiebevis
+Formål med behandlingen
+Opplysningene brukes til å
+1. registrere og administrere ditt konkurransebidrag,
+2. verifisere at du oppfyller deltakerkravet om studentstatus,
+2. kontakte deg ved spørsmål eller kunngjøring av resultater, og
+3. følge opp eventuelle premier eller videre samarbeid etter konkurransen.
+Deling med andre virksomheter
+For å gjennomføre konkurransen deles navnet ditt og e-postadressen din med
+samarbeidende virksomheter (Avinor AS, Bane NOR SF, Kystverket, Statens vegvesen, Nye
+Veier, Jernbanedirektoratet) – utelukkende for de samme formålene som nevnt over.
+Opplysningene vil ikke brukes til andre formål.
+Behandlingsgrunnlag
+3
+
+Vedlegg 3 – Dokumentasjon og innlevering
+
+Behandlingen skjer på grunnlag av ditt frivillige samtykke, jf. personvernforordningen (GDPR)
+artikkel 6 nr. 1 bokstav a. Du kan når som helst trekke samtykket tilbake (se avsnittet Dine
+rettigheter).
+Lagringstid
+Opplysningene lagres kun så lenge det er nødvendig for å oppfylle formålene, og slettes
+senest 12 måneder etter at konkurransen er avsluttet, med mindre videre lagring er påkrevd
+etter lov.
+Sikring av samtykke og opplysninger
+Samtykket logges med tidsstempel i en adgangsbegrenset protokoll. Alle personopplysninger
+lagres kryptert på servere i EØS med tilgangskontroll.
+Overføring utenfor EØS
+Opplysningene vil ikke bli overført til land utenfor EØS.
+Dine rettigheter
+Du har rett til
+• innsyn i hvilke opplysninger vi har om deg,
+• korrigering av feil,
+• sletting («retten til å bli glemt»),
+• begrensning av behandling,
+• dataportabilitet, og
+• å protestere mot behandlingen.
+Du kan når som helst trekke samtykket til behandlingen av dine personopplysninger. Dersom
+du trekker samtykket
+•
+•
+
+før juryeringen starter vil bidraget og opplysningene dine slettes og bidraget vurderes
+ikke.
+etter at juryeringen har startet vil bidraget annulleres. Vi trenger dine opplysninger for
+å vurdere bidraget. Trekker du samtykket at juryeringen har startet, må vi annullere
+bidraget og du deltar ikke videre i konkurransen. Opplysningene dine vil slettes.
+
+Klage kan rettes til Datatilsynet dersom du mener behandlingen strider mot gjeldende
+personvernregler.
+Kontaktinformasjon
+Behandlingsansvarlig: Avinor AS
+E-post: personvern@avinor.no
+Ved å sende inn ditt bidrag bekrefter du at du har lest, forstått og samtykker til behandlingen
+som beskrevet.
+
+Spørsmål til konkurransen
+Ved eventuelle spørsmål relatert til konkurransen ønsker vi at man tar kontakt med Mateo
+på: mateo.guzman-urbano@avinor.no
+Spørsmålene vil besvares via e-post, men svarene vil også deles i teams-møte 16.
+september kl 08:30-09:15. I dette møte vil man også ha mulighet for å stille spørsmål direkte
+til Avinor.
+
+Her er lenke til teams-møte: https://teams.microsoft.com/l/meetupjoin/19%3ameeting_ZGIyOWY1YmYtNzM3OS00NzBjLWFmZTktZTQyOThjNTE4ZWJi%40th
+read.v2/0?context=%7b%22Tid%22%3a%2230c196be-106b-44d0-9df5c692fe08d33d%22%2c%22Oid%22%3a%22d742a613-a22a-4e7b-af5ee7e90f6d0d37%22%7d
+
+

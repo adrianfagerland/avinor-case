@@ -1,0 +1,39 @@
+[project]
+name = "avinor"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+authors = [
+    { name = "Adrian Fagerland", email = "adrian.fagerland@hotmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "holidays",
+    "numpy",
+    "pandas>=2.3.2",
+    "pyarrow",
+    "requests",
+    "scikit-learn>=1.7.2",
+    "tqdm>=4.67.1",
+    "lightgbm>=4.3",
+    "catboost>=1.2",
+    "xgboost>=2.1",
+    "torch>=2.2",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu" },
+]
+torchvision = [
+  { index = "pytorch-cpu" },
+]
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.9"]
+build-backend = "uv_build"

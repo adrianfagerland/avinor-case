@@ -1,0 +1,7 @@
+{
+  "mlp_fold_1_auc":0.9635688416,
+  "mlp_fold_2_auc":0.9766769684,
+  "mlp_fold_3_auc":0.9801309057,
+  "mlp_fold_4_auc":0.9837146031,
+  "mlp_overall_auc":0.9761497787
+}
