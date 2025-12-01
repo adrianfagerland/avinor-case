@@ -40,14 +40,10 @@ FROST_CLIENT_ID=... uv run scripts/fetch_met_weather_history.py
 uv run scripts/generate_calendar_events.py
 ```
 
-Med dataene på plass, kan selve modell-pipelinen kjøres. Dette er en to-stegs prosess hvor simuleringen kjøres først, etterfulgt av treningen av den endelige modellen.
+Med dataene på plass, kan selve modell-pipelinen kjøres.
 
 ```bash
-# Steg 1: Kjør Monte Carlo-simuleringen for å generere fremtidsscenarioer
-uv run scripts/run_simulation_and_ensemble.py --only-simulations
-
-# Steg 2: Tren hovedmodellen og generer den endelige prediksjonen
-uv run scripts/run_pipeline.py --log-level INFO
+uv run scripts/run_pipeline.py
 ```
 
 Resultatet skrives til `outputs/final_predictions.csv`, som er filen som skal leveres inn sammen med dokumentasjonen.

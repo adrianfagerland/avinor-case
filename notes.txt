@@ -2,3 +2,7 @@
   - July 2025 logistic holdout AUC (from time-split OOF predictions): 0.962.
   - July 2025 simulation-only AUC: 0.957.
   - Learned ensemble blend: 55 % logistic / 45 % simulation (ensemble_weight = 0.55).
+
+både mc og lightgbm
+hva er andre plassen? hva er true labels
+andre plassen er i dokumentet

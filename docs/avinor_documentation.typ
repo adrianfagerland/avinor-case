@@ -181,7 +181,6 @@ uv run scripts/generate_calendar_events.py
 === Kjøre pipeline
 
 ```
-uv run scripts/run_simulation_and_ensemble.py --only-simulations
 uv run scripts/run_pipeline.py --log-level INFO
 ```
 
